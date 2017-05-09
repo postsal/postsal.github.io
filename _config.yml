@@ -1,0 +1,103 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://izhangzhihao.github.io/
+date_format: "ordinal"
+title: MyNotes
+subtitle: "Make the impossible possible, the possible easy and the easy elegant"
+description: "胡建的个人博客"
+keywords: 胡建
+favicon: /favicon.ico
+timezone: Asia/BeiJing
+encoding: "utf-8"
+source_code: https://github.com/izhangzhihao/izhangzhihao.github.io
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: 胡建
+organization: 智慧软件工作室
+organization_url: 暂无
+location: 唐山•中国
+email: ihujian9438@163.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /MySkillTree/
+    label: 我的技能树
+
+  -
+    href: /about/
+    label: 关于我
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_username: postsal
+# facebook_username: izhangzhihao
+# weibo_username: izhangzhihao
+#zhihu_username: 张志豪
+#twitter_username: izhangzhihao
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, changyan
+comments_provider: disqus
+# !!!重要!!! 请修改下面用户名为你自己申请的
+disqus_username: postsal-github-io
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+#google:
+#    analytics_id: UA-82434482-1
+
+# ---------------- #
+#      Datas       #
+# ---------------- #
+skill_language_keywords: [Java, Scala, C Sharp, Python]
+skill_web_app_keywords: [javaEE, Spring ,Spring MVC ,JPA , Hibernate , MyBatis, Shiro ,Redis ,Spring Data ,MySql ,ASP.NET ,ASP.NET MVC,Entity Framework]
