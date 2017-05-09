@@ -9,7 +9,7 @@
 
 ## 效果预览
 
-### [在线预览 &rarr;](https://izhangzhihao.github.io/)
+### [在线预览 &rarr;](https://postsal.github.io/)
 
 ## Fork 指南
 
