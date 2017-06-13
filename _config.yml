@@ -4,12 +4,12 @@
 baseurl:
 url: https://postsal.github.io/
 date_format: "ordinal"
-title: 叨叨狗
+title: MyBlog
 subtitle: "Make the impossible possible, the possible easy and the easy elegant"
 description: "胡建的个人博客"
 keywords: 胡建
 favicon: /favicon.ico
-timezone: Asia/BeiJing
+timezone: Asia/TangShan
 encoding: "utf-8"
 source_code: https://github.com/postsal/postsal.github.io
 side_bar_repo_limit: 5
@@ -21,7 +21,7 @@ author: 胡建
 organization: 华北理工大学
 organization_url: www.ncst.edu.cn
 location: 唐山•中国
-email: ihujian9438@163.com
+email: ihujian@outlook.com
 
 # ---------------- #
 #    Navigation    #
