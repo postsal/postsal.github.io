@@ -3,6 +3,7 @@ layout: post
 title: MyBatis小问题(1)-Mapper中错误No constructor found
 categories: Mybatis
 description: MyBatis小问题(1)-Mapper中错误No constructor found
+keywords: No constructor found
 ---
 javabean代码：
 
