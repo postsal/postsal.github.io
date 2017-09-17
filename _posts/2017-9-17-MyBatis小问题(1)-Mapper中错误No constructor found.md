@@ -5,63 +5,65 @@ categories: Mybatis
 description: MyBatis小问题(1)-Mapper中错误No constructor found
 keywords: No constructor found
 ---
-javabean代码：
+```
+package com.github.postsal.bean;
 
-	package com.github.postsal.bean;
-	
-	public class User {
-	
-	    private int id;
-	    private String name;
-	    private int age;
-	    
-	    public User(int id, String name, int age) {
-	        super();
-	        this.id = id;
-	        this.name = name;
-	        this.age = age;
-	    }
-	
-	    public int getId() {
-	        return id;
-	    }
-	
-	    public void setId(int id) {
-	        this.id = id;
-	    }
-	
-	    public String getName() {
-	        return name;
-	    }
-	
-	    public void setName(String name) {
-	        this.name = name;
-	    }
-	
-	    public int getAge() {
-	        return age;
-	    }
-	
-	    public void setAge(int age) {
-	        this.age = age;
-	    }
-	
-	    @Override
-	    public String toString() {
-	        return "User [id=" + id + ", name=" + name + ", age=" + age + "]";
-	    }
-	}
+public class User {
+
+    private int id;
+    private String name;
+    private int age;
+    
+    public User(int id, String name, int age) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "User [id=" + id + ", name=" + name + ", age=" + age + "]";
+    }
+}
+```
 
 在JUnit中写了一个测试程序，用来查询。
 
-	@Test
-	public void testSelect() {
-	    SqlSessionFactory factory = MyBatisUtils.getFactory();
-	    SqlSession openSession = factory.openSession();
-	    UserMapper mapper = openSession.getMapper(UserMapper.class);
-	    User selectUser = mapper.selectUser(1);
-	    System.out.println(selectUser);
-	}
+```
+@Test
+public void testSelect() {
+    SqlSessionFactory factory = MyBatisUtils.getFactory();
+    SqlSession openSession = factory.openSession();
+    UserMapper mapper = openSession.getMapper(UserMapper.class);
+    User selectUser = mapper.selectUser(1);
+    System.out.println(selectUser);
+}
+```
 
 运行结果报错：
 
