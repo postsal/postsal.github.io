@@ -15,7 +15,7 @@ permalink: /about/
 ## 坚信
 
 * Continuous Learning
-* 你获得的回报跟你创造的价值正相关
+* 日常的学习重在去总结
 * 代码改变世界
 
 ## 联系我
