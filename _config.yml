@@ -95,5 +95,5 @@ disqus_username: postsal-github-io
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_language_keywords: [Java, Scala,]
+skill_language_keywords: [Java,Go]
 skill_web_app_keywords: [javaEE, Spring ,Spring MVC ,JPA , Hibernate , MyBatis, Shiro ,Redis ,Spring Data ,MySql,Entity Framework]
